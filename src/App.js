@@ -1,25 +1,55 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
+// import './App.css';
+// import User from './User';
+
+// function App() {
+//   const data = "harsh"
+//   return (
+//     <div className="App">
+//       <h1>Lifting Up State</h1>
+//       <User name={data}/>
+//     </div>
+//   );
+// }
+
+// export default App;
+
+// import './App.css';
+// import User from './User';
+
+// function App() {
+//   function parentAlert(item){
+//     alert(item)
+//   }
+//   return (
+//     <div className="App">
+//       <h1>Lifting Up State</h1>
+//       <User alert={parentAlert}/>
+//     </div>
+//   );
+// }
+
+// export default App;
+
 import './App.css';
+// import Control from './Control';
+import HOC from './HOC';
+// import Ref from './Ref';
+// import UseRef from './UseRef';
+// import Pure from './Pure';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Pure/> */}
+      {/* <UseRef/> */}
+      {/* <Ref/> */}
+      {/* <Control/> */}
+      <HOC/>
     </div>
   );
 }
 
 export default App;
+
